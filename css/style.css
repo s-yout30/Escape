@@ -287,7 +287,7 @@ body{
 
 @media screen and (max-width:780px) {
   .align-column-3type-content-text p{
-    font-size:1.5rem;
+    font-size:2rem;
   }
 }
 
@@ -303,7 +303,7 @@ body{
 
 @media screen and (max-width:780px) {
   .align-column-3type-content-text p:first-child{
-    font-size:1.8rem;
+    font-size:2.5rem;
   }
 }
 
