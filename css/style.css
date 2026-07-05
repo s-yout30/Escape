@@ -169,7 +169,7 @@ body{
 .story-text-container p{
     position:absolute;
     width:100%;
-    top:15%;
+    top:10%;
     left:50%;
     transform: translateX(-50%);
 
@@ -179,7 +179,8 @@ body{
 
 @media screen and (max-width:1280px) {
   .story-text-container p{
-    font-size:2rem;
+    top:0;
+    font-size:1.8rem;
   }
 }
 
@@ -286,7 +287,7 @@ body{
 
 @media screen and (max-width:780px) {
   .align-column-3type-content-text p{
-    font-size:1rem;
+    font-size:1.5rem;
   }
 }
 
@@ -302,7 +303,7 @@ body{
 
 @media screen and (max-width:780px) {
   .align-column-3type-content-text p:first-child{
-    font-size:1.5rem;
+    font-size:1.8rem;
   }
 }
 
