@@ -327,6 +327,7 @@ body{
 
 .ticket-container{
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .table-price{
@@ -365,6 +366,56 @@ td{
     background-color: #fff;
 
     font-size:2rem;
+}
+
+
+details {
+    width:50%;
+    margin: 0 auto;
+    
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+summary {
+    text-align: center;
+  padding: 15px 20px;
+  background-color: #286776;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  user-select: none;
+ 
+
+  transition: background-color 0.3s ease;
+}
+
+summary:hover {
+  background-color: #4798ad;
+}
+
+details[open] summary {
+  background-color: #286776;
+  color: white;
+}
+
+.ul-container{
+ background-color: #fafafa;
+}
+
+.accordion ul{
+    padding: 0px 20px;
+ margin: 0 30px;
+  border-top: 1px solid #ddd;
+}
+
+.accordion li{
+    font-size: 1.5rem;
+  padding: 15px 20px;
+  background-color: #fafafa;
+  border-top: 1px solid #ddd;
 }
 
 footer{
